@@ -6,6 +6,10 @@ Since this container downloads the actual model files, and they aren't mine to d
 
 **Please Note**: The exposed API have no security or authentication of any kind.  I used it on a closed system so this wasn't an issue, but be sure to put appropriate controls in place depending on your threat model and risk.
 
+## Why
+
+The biggest issue is the underlying code for Resemble has not been updated and relies on old versions of libraries.  Odds are you will struggle to build a new app on updated libraries and also be able to get Resemble to run.  Hence a basic API to allow noise reduction activity.
+
 ## Features
 
 - **AI-Powered Denoising**: Uses Resemble Enhance models for high-quality audio denoising
