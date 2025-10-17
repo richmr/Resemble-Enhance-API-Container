@@ -1,0 +1,5 @@
+torch>=2.1.1
+torchaudio>=2.1.1
+resemble-enhance
+flask>=2.0.0
+werkzeug>=2.0.0
