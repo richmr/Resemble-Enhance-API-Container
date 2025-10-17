@@ -2,6 +2,8 @@
 
 A containerized audio denoising service built with Flask and PyTorch, powered by the [Resemble Enhance model](https://github.com/resemble-ai/resemble-enhance). This service provides a REST API for denoising audio files using state-of-the-art AI models.
 
+Since this container downloads the actual model files, and they aren't mine to distribute, I have not posted this container on Docker Hub.  But it's a quick build!
+
 ## Features
 
 - **AI-Powered Denoising**: Uses Resemble Enhance models for high-quality audio denoising
