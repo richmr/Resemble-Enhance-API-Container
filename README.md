@@ -20,12 +20,7 @@ A containerized audio denoising service built with Flask and PyTorch, powered by
 
 ### Build Process
 
-1. **Navigate to the denoiser directory:**
-   ```bash
-   cd denoiser
-   ```
-
-2. **Build the Docker image:**
+1. **Build the Docker image:**
    ```bash
    docker build -t audio-denoiser .
    ```
@@ -37,7 +32,7 @@ A containerized audio denoising service built with Flask and PyTorch, powered by
    - Clone the Resemble Enhance model repository
    - Set up the Flask API server
 
-3. **Verify the build:**
+2. **Verify the build:**
    ```bash
    docker images | grep audio-denoiser
    ```
