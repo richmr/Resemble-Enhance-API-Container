@@ -4,6 +4,8 @@ A containerized audio denoising service built with Flask and PyTorch, powered by
 
 Since this container downloads the actual model files, and they aren't mine to distribute, I have not posted this container on Docker Hub.  But it's a quick build!
 
+**Please Note**: The exposed API have no security or authentication of any kind.  I used it on a closed system so this wasn't an issue, but be sure to put appropriate controls in place depending on your threat model and risk.
+
 ## Features
 
 - **AI-Powered Denoising**: Uses Resemble Enhance models for high-quality audio denoising
